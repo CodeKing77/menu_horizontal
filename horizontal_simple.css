@@ -1,0 +1,67 @@
+
+
+
+body 
+{
+	font-family: 'Montserrat', 'Arial';
+}
+
+
+#wrapper
+{
+	width: 60%;
+    margin: auto;
+} 
+
+#menu 
+{
+	border: 1px solid whitesmoke;
+	background-color: whitesmoke;
+}
+
+#menu p 
+{
+	text-align: center;
+}
+
+#menu nav 
+{
+	border: 1px solid white;
+	margin: 1.5em;
+	background-color: white;
+	width: 95%;
+}
+
+
+#menu nav ul 
+{
+	/*border: 2px dashed blue;*/
+	width: 90%;
+}
+
+
+#menu nav ul a 
+{
+	text-decoration: none;
+}
+
+
+#menu nav ul a li 
+{
+	/*border: 1px solid green;*/
+    /*list-style-type: circle;*/
+    display: inline;
+    text-transform: capitalize;
+    width: 10%;
+    text-align: center;
+    margin-right: 5.9em;
+    
+}
+
+
+#menu nav a li:hover 
+{
+	background-color: skyblue;
+	color: white;
+}
+
