@@ -1,0 +1,63 @@
+#wrapper
+{
+	width: 80%;
+	margin: auto;
+	border: 2px solid whitesmoke;
+	background-color: whitesmoke;
+	font-family: 'Montserrat', Arial;
+}
+
+
+nav 
+{
+	/*border: 4px dashed green;*/
+	text-align: center;
+}
+
+ul 
+{
+	border: 1px solid white ;
+	background-color: white;
+	margin: 5px 3px 60px 3px;
+
+
+}
+
+span
+{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	position: relative;
+	top: -2em;
+	font-size: 1.2em;
+}
+
+
+
+li 
+{
+	display: inline-block;
+	list-style-type: none;
+	width: 150px;
+	line-height: 5em; /*Line-height permet de positionner les éléments bien au centre de la ligne,C'est meilleur dans ce cas que height*/
+	border: 1px solid black;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0px 5px 0px 50px;
+    
+}
+
+
+li a 
+{
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: #00f;
+	color: white;
+	font-weight: bold;
+}
